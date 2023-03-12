@@ -1,20 +1,8 @@
-
-body{
-    margin-left: 30%;
-    margin-top: 3%;
-}
-    
- 
     
 p{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
     color: rgb(0, 56, 211);
     font-size: 22px;
     font-weight: 1000;
-    box-shadow: 0px -50px 0px -12.5px rgb(121, 121, 121);
-
 }
     
 
@@ -74,8 +62,13 @@ p:hover{
     
     }
 
-    .row{
+    .container{
       width: 50%;
+      margin: 0  auto;
+    }
+
+    .row{
+      border-top: 1px solid grey;
     }
 
   .row:hover .div-accordion-2 {
@@ -164,31 +157,26 @@ p:hover{
   }
 
   .title-accordion{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
   }
 
   .title-accordion-2{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
   }
 
   .title-accordion-3{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
   }
 
   .title-accordion-4{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
   }
 
   .title-accordion-5{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
   }
@@ -200,14 +188,12 @@ p:hover{
     width: 25px;
     height: 25px;
     background-size: 100%;
+    margin-top: 4%;
   }
   
   .container:hover .cross{
     display: block;
   }
-
-
-
 
   #check-radio:checked~.title-accordion .cross{
     background-image: url(images/cross.png);
